@@ -3,3 +3,6 @@
 ################################################################################
 
 /Order.Service/obj
+/OrderDetails.ApiGateway/obj
+/User.Service/obj
+/UserService.Data
