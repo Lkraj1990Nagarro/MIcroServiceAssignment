@@ -13,11 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService.Data", "UserService.Data\UserService.Data.csproj", "{9670390B-515B-488B-AA0B-042CDF6B6D51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Service", "Order.Service\Order.Service.csproj", "{6C9A72B9-E31F-481A-A608-AFE1A42C54FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Order.Service", "Order.Service\Order.Service.csproj", "{6C9A72B9-E31F-481A-A608-AFE1A42C54FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderDetails.ApiGateway", "OrderDetails.ApiGateway\OrderDetails.ApiGateway.csproj", "{F53F1A77-F13F-4658-98B2-B509B685DA49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderDetails.ApiGateway", "OrderDetails.ApiGateway\OrderDetails.ApiGateway.csproj", "{F53F1A77-F13F-4658-98B2-B509B685DA49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Service", "User.Service\User.Service.csproj", "{4A162D65-6303-4140-93D9-832BEBFD8C6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.Service", "User.Service\User.Service.csproj", "{4A162D65-6303-4140-93D9-832BEBFD8C6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{F80B24C6-2269-46B6-88F9-89597B3A9733}"
+	ProjectSection(SolutionItems) = preProject
+		Database\sqlserver-deployment.yaml = Database\sqlserver-deployment.yaml
+		Database\sqlserver-volume.yaml = Database\sqlserver-volume.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
