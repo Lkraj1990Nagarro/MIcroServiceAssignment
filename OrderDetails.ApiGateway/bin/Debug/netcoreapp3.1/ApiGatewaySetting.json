@@ -8,8 +8,8 @@
       "Key": "users",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "32778"
+          "Host": "10.4.12.98",
+          "Port": "80"
         }
       ]
     },
@@ -21,8 +21,8 @@
       "Key": "orders",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "32774"
+          "Host": "10.4.4.152",
+          "Port": "80"
         }
       ]
     }

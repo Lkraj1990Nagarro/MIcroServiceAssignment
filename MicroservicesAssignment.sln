@@ -25,6 +25,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{F8
 		Database\sqlserver-volume.yaml = Database\sqlserver-volume.yaml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{5B38DF65-5D02-4819-BBF0-AB117363F0AE}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Deployment documents.docx = Documents\Deployment documents.docx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
